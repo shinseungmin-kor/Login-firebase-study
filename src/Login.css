@@ -1,0 +1,112 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.login_desc > p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login_auth {
+    display: flex;
+    margin-top: 50px;
+}
+
+.login_authOptions {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.login_authOption {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login_authOption:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.login_authOption > p {
+    margin-left: 11px;
+}
+
+
+.login_emailPass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 20px;
+}
+
+
+
+.login_inputFields {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login_inputField {
+    padding: 5px;
+}
+
+
+
+.login_forgButt {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_forgButt > button {
+    padding: 9px;
+    cursor: pointer;
+}
+/* 로그인 */
+
+.login_emailPass > button {
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* 회원가입 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
